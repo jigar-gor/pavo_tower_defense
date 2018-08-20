@@ -11,7 +11,7 @@ module.exports = {
     ],
 
     devServer: {
-        port: 6245,
+        port: $PORT,
         host: '0.0.0.0',
         disableHostCheck: true,
     },
